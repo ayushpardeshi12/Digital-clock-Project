@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url(images/Nature-img-landscape-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 0.3em;
+    position: relative;
+}
+
+.clock span {
+    width: 7.5rem;
+    height: 6.25rem;
+    background-color: slateblue;
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    /* text-shadow: 2px 2px 20px rgba(0,0,0,0.3); */
+}
+
+#hour,
+#minutes,
+#seconds,
+#session {
+    font-size: 3em;
+}
+
+.clock .text {
+    height: 1.8em;
+    background-color: rgb(37, 5, 66);
+    opacity: 80%;
+}
+
+#session {
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: gold;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width:640px) {}
